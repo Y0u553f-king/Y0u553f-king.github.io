@@ -165,7 +165,7 @@ COLORE (AQ)
 
 
 
-<h3><h1 style="color:blue;"> Occupazione di MEMORIA DELLE IMMAGINI </h1></h3>  <h1 id="Occupazione di memoria"> 
+<h3><h1 style="color:blue;"> Occupazione di MEMORIA DELLE IMMAGINI </h1></h3>  <h1 id="Occupazione di memoria"> </h1>
 
 
 	
@@ -177,5 +177,42 @@ La profondità di colore indica quanti bit vengono utilizzati per rappresentare 
 <li>24 bpp (RGB): ogni pixel è rappresentato da 24 bit (8 per ciascun canale di colore: rosso, verde e blu), che permettono 16,7 milioni di colori.</li>
 <li>32 bpp (RGBA): simile a 24 bpp, ma con un canale aggiuntivo per la trasparenza (alfa).</li>
 </ul>
+	<br>
+La memoria occupata da un'immagine può essere calcolata utilizzando la seguente formula:
 
+Memoria (in byte)
+=
+Larghezza
+×
+Altezza
+×
+Profondit
+a
+ˋ
+ di colore (in byte)
+Memoria (in byte)=Larghezza×Altezza×Profondit 
+a
+ˋ
+  di colore (in byte)
+Profondità di colore in byte: Se la profondità è 24 bpp, ogni pixel occupa 3 byte (8 bit per canale, e 3 canali in totale).
+Esempio:
+Per un'immagine di 1024x768 pixel con profondità di 24 bpp:
+
+Memoria
+=
+1024
+×
+768
+×
+3
+ byte
+=
+2.359.296
+ byte
+≈
+2
+,
+36
+ MB
+Memoria=1024×768×3 byte=2.359.296 byte≈2,36 MB   
  
