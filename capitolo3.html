@@ -48,7 +48,7 @@ In generale, la codifica è essenziale perché permette di convertire l'informaz
 
 
 
-	
+<span id="tabella">
  <table>
 	<tr>
 		<th>
@@ -138,10 +138,16 @@ COLORE (AQ)
 		</td>
 		
 	</tr>
-	
-		
-	<table>
+</table>
+
+</span>
 <style>
+	#tabella{
+		position:absolute;
+  top:1150px;
+  left:500px
+
+	}
 	table {
 		border-style: solid;
 		border-width: 1px;
@@ -195,7 +201,9 @@ Memoria (in byte)=Larghezza×Altezza×Profondit
 a
 ˋ
   di colore (in byte)
-Profondità di colore in byte: Se la profondità è 24 bpp, ogni pixel occupa 3 byte (8 bit per canale, e 3 canali in totale).
+Profondità di colore in byte: Se la profondità è 24 bpp,
+<br>
+ ogni pixel occupa 3 byte (8 bit per canale, e 3 canali in totale).
 Esempio:
 Per un'immagine di 1024x768 pixel con profondità di 24 bpp:
 
