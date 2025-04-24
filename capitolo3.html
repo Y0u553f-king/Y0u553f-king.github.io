@@ -1,186 +1,211 @@
 
  <head>
-        <style>
-        body {
-          background-image: url("sfondolibro.jpg");
-        }
-        </style>
-        </head>
+	<style>
+	body {
+	  background-image: url("sfondolibro.jpg");
+	}
+	</style>
+	</head>
 
 <h3><h1 style="color:blue;"> Capitolo 3 </h1></h3>
 
- <h2> <a href="#CODIFICHE"> codifiche </a> </h3>
-  <h2>  <a href="#CODIFICA delle IMG"> CODIFICA delle immagini </a> </h3>
- <h2> <a href="#codifiche audio "> Codifiche audio </a> </h3>
- <h2> <a href="#codifiche video"> Codifiche video </a> </h3>
+<h2> <a href="#CODIFICHE"> codifiche: BINARIA-POSIZIONALE </a> </h3>
+	<h2> <a href="#carateri"> codifica dei carateri </a> </h3>
+<h2>  <a href="#CODIFICA delle IMG"> CODIFICA delle immagini </a> </h3>
+<h2> <a href="#codifiche audio "> Codifiche audio </a> </h3>
+<h2> <a href="#codifiche video"> Codifiche video </a> </h3>
+	<h2> <a href="#codifiche numeri">  Codifiche numeri (N,Z,R) </a> </h3>
 <br>
 <br>
-<h3><h1 style="color:green;"> CODIFICHE </h1></h3>  <h1 id="CODIFICHE"> </h1>
 
 
 
+<h1 id="CODIFICHE"> </h1>
+<h3><h1 style="color:green;"> CODIFICHE:BINARIA-POSIZIONALE </h1></h3>  
 <img src="1imgfcap3.jpg">
+<br>
+<h3>
+La codifica binaria è un metodo fondamentale per rappresentare numeri e dati nei sistemi informatici, utilizzando solo due simboli: 0 e 1, che sono noti come bit (abbreviazione di "binary digit").<br>
+ Ogni numero o informazione viene rappresentato come una sequenza di questi simboli, che sono alla base del funzionamento di tutti i computer e sistemi digitali. La codifica binaria sfrutta<br>
+  il sistema numerico base 2, che si differenzia dal sistema decimale (che utilizza 10 simboli) poiché ogni posizione ha un valore che è una potenza di 2. Per esempio, il numero decimale 5 in binario<br>
+   è rappresentato come 101, dove 5 è il risultato della somma delle potenze di 2: 1 × 2² + 0 × 2¹ + 1 × 2⁰. In questo modo, i numeri possono essere facilmente rappresentati e manipolati dai sistemi informatici.<br>
+<br>
 
-<h2>Le codifiche sono dei metodi che servono per trasformare un'informazione in un formato che può essere facilmente memorizzato, trasmesso o gestito da un computer.
-	<br>
-  In informatica, si usano per rappresentare dati come numeri, testi o immagini.
-	<br>
-  Esistono diversi tipi di codifica:
-	<br>
- <ul>
- <li> Codifica binaria: Ogni dato è trasformato in una sequenza di 0 e 1.
-	 <br>
-   Questo perché i computer funzionano con il sistema binario, che è fatto solo di due numeri: 0 e 1. Per esempio, la lettera "A" in codice binario diventa "01000001". </li>
+La codifica posizionale è un concetto che descrive come il valore di un numero dipenda dalla posizione delle sue cifre. In un sistema numerico posizionale, come quello decimale <br>
+(base 10) o binario (base 2), ogni cifra ha un valore che dipende dalla sua posizione nel numero. La posizione di ogni cifra determina quale potenza della base viene moltiplicata per il valore di quella cifra.<br>
+ Ad esempio, nel sistema decimale, il numero 234 è composto dalle cifre 2, 3 e 4, e ognuna di queste cifre ha un valore che dipende dalla sua posizione. La cifra 4 si trova nella posizione delle "unità"<br>
+  (moltiplicata per 10⁰), la cifra 3 nella posizione delle "decine" (moltiplicata per 10¹) e la cifra 2 nella posizione delle "centinaia" (moltiplicata per 10²). Quindi, il numero 234 è il risultato<br>
+   della somma di 2 × 10² + 3 × 10¹ + 4 × 10⁰, che dà 234.
+<br>
+Nel sistema binario, la codifica posizionale funziona allo stesso modo, ma con base 2. Ad esempio, il numero binario 1011 rappresenta il numero 11 in decimale. La cifra 1 nella posizione 3<br>
+ (da destra a sinistra) è moltiplicata per 2³, la cifra 0 nella posizione 2 è moltiplicata per 2², la cifra 1 nella posizione 1 è moltiplicata per 2¹, e la cifra 1 nella posizione 0 è moltiplicata per 2⁰.<br>
+  Sommandole insieme, otteniamo 8 + 0 + 2 + 1 = 11. Così, la codifica posizionale permette di rappresentare numeri in maniera chiara, dove ogni cifra contribuisce in base alla sua posizione,<br>
+   sia nei numeri decimali che nei numeri binari.<br>
+La codifica binaria e la codifica posizionale sono concetti fondamentali per la rappresentazione dei dati nei computer
+</h3>
+<br>
+<br>
+<h1 id="carateri"> </h1>
 
- <li>Codifica ASCII: È un sistema di codifica che associa ogni carattere (lettera, numero, simbolo) a un numero.
-	 <br>
-   Per esempio, nella codifica ASCII, la lettera "A" è rappresentata dal numero 65. </li> 
+<h3><h1 style="color:green;"> CODIFICA dei carateri </h1></h3>
+<h3>La codifica dei caratteri è un sistema che assegna un valore numerico univoco a ciascun simbolo<br>
+	 (lettere, numeri, segni di punteggiatura, simboli speciali, ecc.) in modo che possano essere rappresentati e gestiti dai computer.<br>
+	  Poiché i computer operano con numeri binari, ogni carattere è associato a una sequenza di bit (0 e 1) <br>
+	  che lo rappresentano internamente.<br>
+	   Diverse codifiche dei caratteri sono state sviluppate per soddisfare diverse esigenze e standard,<br>
+	    e l'evoluzione delle tecnologie ha portato a soluzioni più complesse e globali come Unicode.<br>
+		<br>
+Una delle prime e più utilizzate codifiche è l'ASCII, che è stato sviluppato negli anni '60. ASCII (American Standard Code for Information Interchange)<br>
+ utilizza una sequenza di 7 bit per rappresentare un totale di 128 caratteri<br>
 
-  <li>Codifica Unicode: È una versione più moderna della codifica che include simboli di molte lingue diverse.
-	  <br>
-   Ad esempio, la lettera "A" in Unicode è rappresentata come U+0041, ma ci sono anche simboli di lingue asiatiche, emoticon, e altro.  </li>
-
-<li> Codifica delle immagini: Le immagini vengono codificate in formati come JPG, PNG o GIF.
-	<br>
-   Questi formati usano metodi per comprimere i dati e ridurre lo spazio necessario per memorizzarli. </li>
-
-  <li> Codifica per la trasmissione dei dati: A volte i dati devono essere modificati per essere inviati attraverso la rete senza errori.
-	  <br>
-   Per esempio, quando invii un messaggio via Internet, il testo viene codificato in un formato che può viaggiare tra i vari dispositivi e poi decodificato per essere letto.</li></ul>
-
-In generale, la codifica è essenziale perché permette di convertire l'informazione in una forma che può essere facilmente utilizzata dai computer, dai programmi e dalle reti.</h2>
-
-
+</h3>
 
 
-<h3><h1 style="color:green;"> CODIFICA delle immagini </h1></h3>    <h1 id="CODIFICA delle IMG"> </h1>
 
-<h2>Codifica delle immagini. Le immagini possono essere memorizzate in forma numerica (digitale) suddividendole in milioni di punti, 
-	<br>
-	per ognuno dei quali si definisce il colore in termini numerici. 
-	<br>
-	Quindi con 1 bit per pixel è possibile codificare assenza o presenza di nero.</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+<br>
+<h1 id="CODIFICA delle IMG"> </h1>
+
+<h3><h1 style="color:green;"> CODIFICA delle immagini </h1></h3>    
+
+<h3>Codifica delle immagini. Le immagini possono essere memorizzate in forma numerica (digitale) suddividendole in milioni di punti, 
+<br>
+per ognuno dei quali si definisce il colore in termini numerici. 
+<br>
+Quindi con 1 bit per pixel è possibile codificare assenza o presenza di nero.</h3>
 <br>
 
 
 
 
 <span id="tabella">
- <table>
-	<tr>
-		<th>
-		IMMAGINE
-		</th>
-  	<th>
-RISOLUZIONE
-		</th>
-  	<th>
-PROFONDITA' 
-    BIT
-		</th>
-  	<th>
-			OCCUPAZIONE DI MEMORIA
-		</th>
-	</tr>
-	<tr>
-		<td>
-			B/N
-		</td>
-		<td>
-			1024X740
-		</td>
-		<td>
-			1
-		</td>
-		<td>
-			1024X740X1
-		</td>
-	</tr>
-	<tr>
-		<td>
-GRIGIO
-		</td>
-		<td>
-1024X740
-		</td>
-		<td>
-8
-		</td>
-		<td>
-1024X740X8bit
-		</td>
-		
-	</tr>
-	 <tr>
-		<td>
-RADIOGRAFIE
-		</td>
-		<td>
-1024X740
-		</td>
-		<td>
-16
-		</td>
-		<td>
-1024X740X16bit
-		</td>
-		
-	</tr>
-	 
+<table>
 <tr>
-		<td>
+	<th>
+	IMMAGINE
+	</th>
+  <th>
+RISOLUZIONE
+	</th>
+  <th>
+PROFONDITA' 
+BIT
+	</th>
+  <th>
+		OCCUPAZIONE DI MEMORIA
+	</th>
+</tr>
+<tr>
+	<td>
+		B/N
+	</td>
+	<td>
+		1024X740
+	</td>
+	<td>
+		1
+	</td>
+	<td>
+		1024X740X1
+	</td>
+</tr>
+<tr>
+	<td>
+GRIGIO
+	</td>
+	<td>
+1024X740
+	</td>
+	<td>
+8
+	</td>
+	<td>
+1024X740X8bit
+	</td>
+	
+</tr>
+ <tr>
+	<td>
+RADIOGRAFIE
+	</td>
+	<td>
+1024X740
+	</td>
+	<td>
+16
+	</td>
+	<td>
+1024X740X16bit
+	</td>
+	
+</tr>
+ 
+<tr>
+	<td>
 COLORE (RGB)
-		</td>
-		<td>
+	</td>
+	<td>
 1024X740
-		</td>
-		<td>
+	</td>
+	<td>
 24
-		</td>
-		<td>
+	</td>
+	<td>
 1024X740X24bit
-		</td>
-	 <tr>
-		<td>
+	</td>
+ <tr>
+	<td>
 COLORE (AQ)
-		</td>
-		<td>
+	</td>
+	<td>
 1024X740
-		</td>
-		<td>
-			48
-		</td>
-		<td>
+	</td>
+	<td>
+		48
+	</td>
+	<td>
 1024X740X48bit
-		</td>
-		
-	</tr>
+	</td>
+	
+</tr>
 </table>
 
 </span>
 <style>
-	#tabella{
-		position:absolute;
-  top:1350px;
-  left:750px
+#tabella{
+	position:absolute;
+top:1350px;
+left:750px
 
-	}
-	table {
-		border-style: solid;
-		border-width: 1px;
-		border-color: black;
-		border-collapse: collapse; 
-	}
-	
-	td, th {
-		border-style: solid;
-		border-width: 1px;
-		border-color: black;
-  border-colapse:colapse;
-	}
-	
-	
-	
+}
+table {
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	border-collapse: collapse; 
+}
+
+td, th {
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+border-colapse:colapse;
+}
+
+
+
 
 </style>   <img src="4imgfcap3.jpg">
 
@@ -191,8 +216,8 @@ COLORE (AQ)
 
 
 <img src="2imgfcap3.jpg">
-	
-<h2> Profondità di colore (bit per pixel - bpp)
+
+<h3> Profondità di colore (bit per pixel - bpp)
 La profondità di colore indica quanti bit vengono utilizzati per rappresentare il colore di un singolo pixel.
 <ul>	
 <li>1 bpp (bianco e nero): ogni pixel è rappresentato da 1 bit, che può essere 0 (bianco) o 1 (nero).</li>
@@ -201,11 +226,11 @@ La profondità di colore indica quanti bit vengono utilizzati per rappresentare 
 <br>	
 che permettono 16,7 milioni di colori.</li>
 <li>32 bpp (RGBA): simile a 24 bpp, ma con un canale aggiuntivo per la trasparenza (alfa).</li>
-</ul> </h2>
-	<br>   <img src="3imgfcap3.jpg">
-		<h2> 
+</ul> </h3>
+<br>   <img src="3imgfcap3.jpg">
+	<h2> 
 La memoria occupata da un'immagine può essere calcolata utilizzando la seguente formula:
-			<br>
+		<br>
 
 Memoria (in byte)
 =
@@ -220,12 +245,12 @@ a
 Memoria (in byte)=Larghezza×Altezza×Profondit 
 a
 ˋ
-  di colore (in byte)
+ di colore (in byte)
 Profondità di colore in byte: Se la profondità è 24 bpp,
 <br>
- ogni pixel occupa 3 byte (8 bit per canale, e 3 canali in totale).
+ogni pixel occupa 3 byte (8 bit per canale, e 3 canali in totale).
 Esempio:
-			<br>
+		<br>
 Per un'immagine di 1024x768 pixel con profondità di 24 bpp:
 
 Memoria
@@ -252,14 +277,15 @@ Memoria=1024×768×3 byte=2.359.296 byte≈2,36 MB </h2>
 
 
 
- 
+
 <h3><h1 style="color:green;"> Codifiche audio  </h1></h3>  <h1 id="codifiche audio "> </h1>     <img src="audioc3.jpg">
 <h3></h3>
 
-<h2>La codifica audio è il processo che trasforma il suono in un formato digitale, permettendo la sua compressione, <br>
-	memorizzazione e trasmissione. Si basa su due fasi principali:<ol>
+<h3>
+>La codifica audio è il processo che trasforma il suono in un formato digitale, permettendo la sua compressione, <br>
+memorizzazione e trasmissione. Si basa su due fasi principali:<ol>
 <li>Campionamento e quantizzazione: Il segnale analogico viene campionato a intervalli regolari e poi quantizzato in valori numerici, <br>
-	che rappresentano l'ampiezza del suono.<br></li>
+che rappresentano l'ampiezza del suono.<br></li>
 
 <li>Compressione: Riduce la dimensione dei file audio senza compromettere troppo la qualità. Può essere:<br>
 
@@ -278,21 +304,21 @@ I formati più comuni sono:<br>
 <li>WAV: Non compresso, ma con file molto grandi.</li></ul>
 
 La codifica audio è fondamentale in applicazioni come la musica digitale, la telefonia mobile, i servizi di streaming e le videoconferenze,<br>
-		dove è necessario bilanciare qualità e dimensione del file. La sfida principale è ottimizzare il compromesso tra qualità del<br>
-		suono e dimensione del file, mantenendo una bassa latenza nelle comunicazioni in tempo reale</h2>
+	dove è necessario bilanciare qualità e dimensione del file. La sfida principale è ottimizzare il compromesso tra qualità del<br>
+	suono e dimensione del file, mantenendo una bassa latenza nelle comunicazioni in tempo reale</h3>
 
 <br>
 <h3><h1 style="color:green;"> Codifiche video  </h1></h3>  <h1 id="codifiche video"> </h1>
-<h2> La codifica video è il processo che converte un video in un formato digitale compresso, riducendo la dimensione del file per facilitarne la memorizzazione e la trasmissione,<br>
-	mantenendo però una qualità visiva accettabile.<br>             <img src="videoc3.jpg">
+<h3> La codifica video è il processo che converte un video in un formato digitale compresso, riducendo la dimensione del file per facilitarne la memorizzazione e la trasmissione,<br>
+mantenendo però una qualità visiva accettabile.<br>             <img src="videoc3.jpg">
 
- la Fase principale della codifica video
-Campionamento: Il video è composto da una sequenza di immagini (frame). Ogni frame è un'immagine digitale che viene campionata e rappresentata come una matrice di pixel.</h2>
+la Fase principale della codifica video
+Campionamento: Il video è composto da una sequenza di immagini (frame). Ogni frame è un'immagine digitale che viene campionata e rappresentata come una matrice di pixel.</h3>
 
 
 <h3><h1 style="color:blue;"> sfide  </h1></h3>
 <br>
-<h2>Le principali sfide includono:
+<h3>Le principali sfide includono:
 
 <ul><li>Compromesso tra qualità e dimensione del file: Ridurre la dimensione senza compromettere troppo la qualità visiva.</li>
 
@@ -301,19 +327,46 @@ Campionamento: Il video è composto da una sequenza di immagini (frame). Ogni fr
 <li>Compatibilità e potenza di calcolo: Codec più avanzati richiedono più risorse computazionali.</li></ul>
 
 In sintesi, la codifica video è essenziale per la distribuzione e la fruizione dei contenuti video digitali, <br>
-	permettendo di bilanciare qualità, dimensione del file e requisiti di banda.</h2>
-
+permettendo di bilanciare qualità, dimensione del file e requisiti di banda.</h3>
 
 
 
 
 <br>
 <br>
+<h1 id="codifiche numeri"> </h1>
+<h3><h1 style="color:green;"> Codifiche numeri (N,Z,R) </h1></h3> 
+<h3>
+	<ol>
+		<li>Codifica dei numeri naturali (N): I numeri naturali, rappresentati dal simbolo N,<br>
+			 sono numeri che usiamo per il conteggio, includendo tutti i numeri positivi e lo zero (0, 1, 2, 3, ...). <br>
+			 In informatica, questi numeri vengono rappresentati principalmente in binario, poiché i computer operano<br>
+			  con sequenze di bit (0 e 1). La codifica binaria permette ai numeri naturali di essere espressi <br>
+			  come sequenze di bit, dove la posizione dei bit determina il valore numerico. Ad esempio, il numero <br>
+			  5 in binario è rappresentato come 101.</li>
+		<li>Codifica dei numeri interi (Z): I numeri interi, rappresentati dal simbolo Z, comprendono tutti i numeri positivi,<br>
+			 negativi e lo zero (ad esempio, ..., -3, -2, -1, 0, 1, 2, 3, ...). Per rappresentare i numeri interi in informatica,<br>
+			  vengono utilizzati vari metodi, come la codifica in complemento a 2, dove il primo bit (bit di segno) <br>
+			  indica se il numero è positivo (0) o negativo (1). Per esempio, in un sistema a complemento a 2 a 8 bit, il numero 5 è<br>
+			   rappresentato come 00000101 e il numero -5 come 11111011..</li>
+			   <li>Codifica dei numeri interi (Z): I numeri interi, rappresentati dal simbolo Z, comprendono tutti i numeri positivi,<br>
+				negativi e lo zero (ad esempio, ..., -3, -2, -1, 0, 1, 2, 3, ...). Per rappresentare i numeri interi in informatica,<br>
+				 vengono utilizzati vari metodi, come la codifica in complemento a 2, dove il primo bit (bit di segno) <br>
+				 indica se il numero è positivo (0) o negativo (1). Per esempio, in un sistema a complemento a 2 a 8 bit, il numero 5 è<br>
+				  rappresentato come 00000101 e il numero -5 come 11111011..</li>
+               <li>Codifica dei numeri reali (R): I numeri reali, rappresentati dal simbolo R, includono tutti i numeri che possono <br>
+				essere espressi con una frazione o una parte decimale, come 3.14, -2.5, 0.001, ecc. Questi numeri sono comunemente<br>
+				 rappresentati in virgola mobile, un formato che consente di esprimere numeri con precisione limitata, ma che può <br>
+				 rappresentare numeri molto grandi o molto piccoli. La codifica in virgola mobile si basa sulla rappresentazione del<br>
+				  numero come un prodotto tra una mantissa (parte significativa) e un esponente. Il formato IEEE 754 è il più diffuso <br>
+				  per la rappresentazione dei numeri reali nei computer.</li>
+</h3>
+	</ol>
+			  
 
 
 
 
-
-
-
+<br>
+<br>
 <h1> <a href="indice.html">ritorna all'indice </a> </h1>
